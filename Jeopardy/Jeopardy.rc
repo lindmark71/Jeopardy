@@ -1,0 +1,447 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Jeopardy.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Jeopardy.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 833, 228
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Jeopardy"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Jeopardy, Version 1.0",IDC_STATIC,16,14,71,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2019",IDC_STATIC,16,26,64,8
+    DEFPUSHBUTTON   "OK",IDOK,776,206,50,14,WS_GROUP
+    PUSHBUTTON      "Music Test",IDC_BUTTON_Test,15,60,50,14
+    PUSHBUTTON      "C",IDC_BUTTON_C,607,73,18,42
+    PUSHBUTTON      "D",IDC_BUTTON_D,625,73,18,42
+    PUSHBUTTON      "E",IDC_BUTTON_E,643,73,18,42
+    PUSHBUTTON      "F",IDC_BUTTON_F,661,73,18,42
+    PUSHBUTTON      "G",IDC_BUTTON_G,679,73,18,42
+    PUSHBUTTON      "A",IDC_BUTTON_A,697,73,18,42
+    PUSHBUTTON      "B",IDC_BUTTON_B,715,73,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_C_HIGH,733,73,18,42
+    PUSHBUTTON      "C#",IDC_BUTTON_C_SHARP,616,32,18,42
+    PUSHBUTTON      "Eb",IDC_BUTTON_E_FLAT,634,32,18,42
+    PUSHBUTTON      "F#",IDC_BUTTON_F_SHARP,670,32,18,42
+    PUSHBUTTON      "Ab",IDC_BUTTON_A_FLAT,688,32,18,42
+    PUSHBUTTON      "Bb",IDC_BUTTON_B_FLAT,706,32,18,42
+    PUSHBUTTON      "Theme",IDC_BUTTON_THEME,16,45,50,14
+    PUSHBUTTON      "C#",IDC_BUTTON5CS,115,131,18,42
+    PUSHBUTTON      "Eb",IDC_BUTTON_5EF,133,131,18,42
+    PUSHBUTTON      "F#",IDC_BUTTON_5FS,168,131,18,42
+    PUSHBUTTON      "Ab",IDC_BUTTON5AF,186,131,18,42
+    PUSHBUTTON      "Bb",IDC_BUTTON_5BF,204,131,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_5C,106,173,18,42
+    PUSHBUTTON      "D",IDC_BUTTON_5D,124,173,18,42
+    PUSHBUTTON      "E",IDC_BUTTON_5E,141,173,18,42
+    PUSHBUTTON      "F",IDC_BUTTON_5F,159,173,18,42
+    PUSHBUTTON      "G",IDC_BUTTON_5G,177,173,18,42
+    PUSHBUTTON      "A",IDC_BUTTON_5A,195,173,18,42
+    PUSHBUTTON      "B",IDC_BUTTON_5B,213,173,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_5CH,231,173,18,42
+    GROUPBOX        "Octave 1",IDC_STATIC,100,19,159,99
+    GROUPBOX        "Octave 2",IDC_STATIC,267,19,159,99
+    GROUPBOX        "Octave 3",IDC_STATIC,434,19,159,99
+    GROUPBOX        "Octave 4",IDC_STATIC,601,19,159,99
+    GROUPBOX        "Octave 5",IDC_STATIC,100,121,159,99
+    GROUPBOX        "Octave 6",IDC_STATIC,267,121,159,99
+    GROUPBOX        "Octave 7",IDC_STATIC,434,121,159,99
+    GROUPBOX        "Octave 8",IDC_STATIC,601,121,159,99
+    PUSHBUTTON      "C#",IDC_BUTTON_1CS,115,32,18,42
+    PUSHBUTTON      "Eb",IDC_BUTTON_1EF,133,32,18,42
+    PUSHBUTTON      "F#",IDC_BUTTON_1FS,168,32,18,42
+    PUSHBUTTON      "Ab",IDC_BUTTON_1AF,186,32,18,42
+    PUSHBUTTON      "Bb",IDC_BUTTON_1BF,204,32,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_1C,106,73,18,42
+    PUSHBUTTON      "D",IDC_BUTTON_1D,124,73,18,42
+    PUSHBUTTON      "E",IDC_BUTTON_1E,141,73,18,42
+    PUSHBUTTON      "F",IDC_BUTTON_1F,159,73,18,42
+    PUSHBUTTON      "G",IDC_BUTTON_1G,177,73,18,42
+    PUSHBUTTON      "A",IDC_BUTTON_1A,195,73,18,42
+    PUSHBUTTON      "B",IDC_BUTTON_1B,213,73,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_1CH,231,73,18,42
+    PUSHBUTTON      "C#",IDC_BUTTON_2CS,283,32,18,42
+    PUSHBUTTON      "Eb",IDC_BUTTON_2EF,301,32,18,42
+    PUSHBUTTON      "F#",IDC_BUTTON_2FS,336,32,18,42
+    PUSHBUTTON      "Ab",IDC_BUTTON_2AF,354,32,18,42
+    PUSHBUTTON      "Bb",IDC_BUTTON_2BF,372,32,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_2C,274,73,18,42
+    PUSHBUTTON      "D",IDC_BUTTON_2D,292,73,18,42
+    PUSHBUTTON      "E",IDC_BUTTON_2E,309,73,18,42
+    PUSHBUTTON      "F",IDC_BUTTON_2F,327,73,18,42
+    PUSHBUTTON      "G",IDC_BUTTON_2G,345,73,18,42
+    PUSHBUTTON      "A",IDC_BUTTON_2A,363,73,18,42
+    PUSHBUTTON      "B",IDC_BUTTON_2B,381,73,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_2CH,399,73,18,42
+    PUSHBUTTON      "C#",IDC_BUTTON_3CS,451,32,18,42
+    PUSHBUTTON      "Eb",IDC_BUTTON_3EF,469,32,18,42
+    PUSHBUTTON      "F#",IDC_BUTTON_3FS,504,32,18,42
+    PUSHBUTTON      "Ab",IDC_BUTTON_3AF,522,32,18,42
+    PUSHBUTTON      "Bb",IDC_BUTTON_3BF,540,32,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_3C,442,73,18,42
+    PUSHBUTTON      "D",IDC_BUTTON_3D,460,73,18,42
+    PUSHBUTTON      "E",IDC_BUTTON_3E,477,73,18,42
+    PUSHBUTTON      "F",IDC_BUTTON_3F,495,73,18,42
+    PUSHBUTTON      "G",IDC_BUTTON_3G,513,73,18,42
+    PUSHBUTTON      "A",IDC_BUTTON_3A,531,73,18,42
+    PUSHBUTTON      "B",IDC_BUTTON_3B,549,73,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_3CH,567,73,18,42
+    PUSHBUTTON      "C#",IDC_BUTTON_6CS,283,131,18,42
+    PUSHBUTTON      "Eb",IDC_BUTTON_6EF,301,131,18,42
+    PUSHBUTTON      "F#",IDC_BUTTON_6FS,336,131,18,42
+    PUSHBUTTON      "Ab",IDC_BUTTON_6AF,354,131,18,42
+    PUSHBUTTON      "Bb",IDC_BUTTON_6BF,372,131,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_6C,274,173,18,42
+    PUSHBUTTON      "D",IDC_BUTTON_6D,292,173,18,42
+    PUSHBUTTON      "E",IDC_BUTTON_6E,309,173,18,42
+    PUSHBUTTON      "F",IDC_BUTTON_6F,327,173,18,42
+    PUSHBUTTON      "G",IDC_BUTTON_6G,345,173,18,42
+    PUSHBUTTON      "A",IDC_BUTTON_6A,363,173,18,42
+    PUSHBUTTON      "B",IDC_BUTTON_6B,381,173,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_6CH,399,173,18,42
+    PUSHBUTTON      "C#",IDC_BUTTON_7CS,451,131,18,42
+    PUSHBUTTON      "Eb",IDC_BUTTON_7EF,469,131,18,42
+    PUSHBUTTON      "F#",IDC_BUTTON_7FS,504,131,18,42
+    PUSHBUTTON      "Ab",IDC_BUTTON_7AF,522,131,18,42
+    PUSHBUTTON      "Bb",IDC_BUTTON_7BF,540,131,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_7C,442,173,18,42
+    PUSHBUTTON      "D",IDC_BUTTON_7D,460,173,18,42
+    PUSHBUTTON      "E",IDC_BUTTON_7E,477,173,18,42
+    PUSHBUTTON      "F",IDC_BUTTON_7F,495,173,18,42
+    PUSHBUTTON      "G",IDC_BUTTON_7G,513,173,18,42
+    PUSHBUTTON      "A",IDC_BUTTON_7A,531,173,18,42
+    PUSHBUTTON      "B",IDC_BUTTON_7B,549,173,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_7CH,567,173,18,42
+    PUSHBUTTON      "C#",IDC_BUTTON_8CS,616,131,18,42
+    PUSHBUTTON      "Eb",IDC_BUTTON_8EF,634,131,18,42
+    PUSHBUTTON      "F#",IDC_BUTTON_8FS,670,131,18,42
+    PUSHBUTTON      "Ab",IDC_BUTTON_8AF,688,131,18,42
+    PUSHBUTTON      "Bb",IDC_BUTTON_8BF,706,131,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_8C,607,173,18,42
+    PUSHBUTTON      "D",IDC_BUTTON_8D,625,173,18,42
+    PUSHBUTTON      "E",IDC_BUTTON_8E,643,173,18,42
+    PUSHBUTTON      "F",IDC_BUTTON_8F,661,173,18,42
+    PUSHBUTTON      "G",IDC_BUTTON_8G,679,173,18,42
+    PUSHBUTTON      "A",IDC_BUTTON_8A,697,173,18,42
+    PUSHBUTTON      "B",IDC_BUTTON_8B,715,173,18,42
+    PUSHBUTTON      "C",IDC_BUTTON_8CH,733,173,18,42
+END
+
+IDD_JEOPARDY_DIALOG DIALOGEX 0, 0, 832, 406
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Jeopardy"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Reset",IDOK,779,379,41,13
+    PUSHBUTTON      "Close",IDCANCEL,779,392,41,13
+    CTEXT           "Static",IDC_STATIC_1,22,14,120,62
+    CTEXT           "Static",IDC_STATIC_2,143,14,120,62
+    CTEXT           "Static",IDC_STATIC_3,265,14,120,62
+    CTEXT           "Static",IDC_STATIC_4,387,14,120,62
+    CTEXT           "Static",IDC_STATIC_5,509,14,120,62
+    CTEXT           "Static",IDC_STATIC_6,632,14,120,62
+    PUSHBUTTON      "Button1",IDC_BUTTON1,12,80,120,53
+    PUSHBUTTON      "Button2",IDC_BUTTON2,12,139,120,53
+    PUSHBUTTON      "Button3",IDC_BUTTON3,12,198,120,53
+    PUSHBUTTON      "Button4",IDC_BUTTON4,12,257,120,53
+    PUSHBUTTON      "Button5",IDC_BUTTON5,12,316,120,53
+    PUSHBUTTON      "Button6",IDC_BUTTON6,137,80,120,53
+    PUSHBUTTON      "Button7",IDC_BUTTON7,137,139,120,53
+    PUSHBUTTON      "Button8",IDC_BUTTON8,137,198,120,53
+    PUSHBUTTON      "Button9",IDC_BUTTON9,137,257,120,53
+    PUSHBUTTON      "Button10",IDC_BUTTON10,137,316,120,53
+    PUSHBUTTON      "Button11",IDC_BUTTON11,262,80,120,53
+    PUSHBUTTON      "Button12",IDC_BUTTON12,262,139,120,53
+    PUSHBUTTON      "Button13",IDC_BUTTON13,262,198,120,53
+    PUSHBUTTON      "Button14",IDC_BUTTON14,262,257,120,53
+    PUSHBUTTON      "Button15",IDC_BUTTON15,262,316,120,53
+    PUSHBUTTON      "Button16",IDC_BUTTON16,387,80,120,53
+    PUSHBUTTON      "Button17",IDC_BUTTON17,387,139,120,53
+    PUSHBUTTON      "Button18",IDC_BUTTON18,387,198,120,53
+    PUSHBUTTON      "Button19",IDC_BUTTON19,387,257,120,53
+    PUSHBUTTON      "Button20",IDC_BUTTON20,387,316,120,53
+    PUSHBUTTON      "Button21",IDC_BUTTON21,512,80,120,53
+    PUSHBUTTON      "Button22",IDC_BUTTON22,512,139,120,53
+    PUSHBUTTON      "Button23",IDC_BUTTON23,512,198,120,53
+    PUSHBUTTON      "Button24",IDC_BUTTON24,512,257,120,53
+    PUSHBUTTON      "Button25",IDC_BUTTON25,512,316,120,53
+    PUSHBUTTON      "Button26",IDC_BUTTON26,637,80,120,53
+    PUSHBUTTON      "Button27",IDC_BUTTON27,637,139,120,53
+    PUSHBUTTON      "Button28",IDC_BUTTON28,637,198,120,53
+    PUSHBUTTON      "Button29",IDC_BUTTON29,637,257,120,53
+    PUSHBUTTON      "Button30",IDC_BUTTON30,637,316,120,53
+    PUSHBUTTON      "Round 2",IDC_BUTTON_ROUND_2,779,366,41,13
+    PUSHBUTTON      "Round 1",IDC_BUTTON_ROUND_1,779,354,41,13
+    PUSHBUTTON      "Titles",IDC_BUTTON_TITLES,779,342,41,13
+    PUSHBUTTON      "Theme",IDC_BUTTON_THEME,779,330,41,13
+    PUSHBUTTON      "Music Test",IDC_BUTTON_MUSIC_TEST,780,317,40,14,NOT WS_VISIBLE
+    LTEXT           "",IDC_STATIC_SCORE_1,29,382,218,18,WS_BORDER
+    LTEXT           "",IDC_STATIC_SCORE_2,276,382,218,18,WS_BORDER
+    LTEXT           "",IDC_STATIC_SCORE_3,524,382,218,18,WS_BORDER
+END
+
+IDD_DIALOG_QA DIALOGEX 0, 0, 815, 421
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Question and Answer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,749,402,50,14
+    CTEXT           "Question",IDC_STATIC_Q,21,23,738,214
+    CTEXT           "Answer",IDC_STATIC_A,21,245,738,143,NOT WS_VISIBLE
+    PUSHBUTTON      "Answer",IDC_BUTTON_A,697,402,50,14
+    PUSHBUTTON      "Video",IDC_BUTTON_V,11,402,50,14
+    PUSHBUTTON      "Team 1 Correct",IDC_BTN_T1_CORRECT,208,402,78,14
+    PUSHBUTTON      "Team 1 Incorrect",IDC_BTN_T1_INCORRECT,286,402,78,14
+    PUSHBUTTON      "Team 2 Correct",IDC_BTN_T2_CORRECT,374,402,78,14
+    PUSHBUTTON      "Team 2 Incorrect",IDC_BTN_T2_INCORRECT,452,402,78,14
+    PUSHBUTTON      "Team 3 Correct",IDC_BTN_T3_CORRECT,539,402,78,14
+    PUSHBUTTON      "Team 3 Incorrect",IDC_BTN_T3_INCORRECT,616,402,78,14
+END
+
+IDD_DIALOG_DD DIALOGEX 0, 0, 707, 424
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "DAILY DOUBLE!"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,647,402,50,14
+    LTEXT           "Amount:",IDC_STATIC,187,395,28,8
+    EDITTEXT        IDC_EDIT_AMOUNT,231,392,96,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_BUTTON1,17,17,631,362
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Jeopardy.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "Jeopardy.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 826
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_JEOPARDY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 820
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 405
+    END
+
+    IDD_DIALOG_QA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 804
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 416
+    END
+
+    IDD_DIALOG_DD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 697
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 416
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BIT400              BITMAP                  "res\\button400.bmp"
+
+IDB_BIT100              BITMAP                  "res\\button100.bmp"
+
+IDB_BIT200              BITMAP                  "res\\button200.bmp"
+
+IDB_BIT300              BITMAP                  "res\\button300.bmp"
+
+IDB_BIT500              BITMAP                  "res\\button500.bmp"
+
+IDB_BIT_DD              BITMAP                  "res\\dj_bitmap.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_JEOPARDY_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_QA AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_DD AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Jeopardy..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Jeopardy.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
